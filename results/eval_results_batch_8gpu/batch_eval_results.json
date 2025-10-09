@@ -1,0 +1,2816 @@
+[
+  {
+    "step": 0,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-0",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9215643405914307,
+        "std": 0.16211608052253723,
+        "min": 0.3896883428096771,
+        "max": 1.4173133373260498,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9215643405914307,
+        "std": 0.16211608052253723,
+        "min": 0.3896883428096771,
+        "max": 1.4173133373260498,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:14:11.550314"
+  },
+  {
+    "step": 60,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-60",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9130629897117615,
+        "std": 0.16169540584087372,
+        "min": 0.4470510184764862,
+        "max": 1.427808165550232,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9130629897117615,
+        "std": 0.16169540584087372,
+        "min": 0.4470510184764862,
+        "max": 1.427808165550232,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:16:22.098432"
+  },
+  {
+    "step": 120,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-120",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.922221839427948,
+        "std": 0.16448310017585754,
+        "min": 0.4588701128959656,
+        "max": 1.3972095251083374,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.922221839427948,
+        "std": 0.16448310017585754,
+        "min": 0.4588701128959656,
+        "max": 1.3972095251083374,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:18:30.644612"
+  },
+  {
+    "step": 180,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-180",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9179337620735168,
+        "std": 0.16226689517498016,
+        "min": 0.4474359154701233,
+        "max": 1.3890888690948486,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9179337620735168,
+        "std": 0.16226689517498016,
+        "min": 0.4474359154701233,
+        "max": 1.3890888690948486,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:20:34.161246"
+  },
+  {
+    "step": 240,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-240",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9199545979499817,
+        "std": 0.16559827327728271,
+        "min": 0.47010359168052673,
+        "max": 1.3840861320495605,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9199545979499817,
+        "std": 0.16559827327728271,
+        "min": 0.47010359168052673,
+        "max": 1.3840861320495605,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:22:57.010845"
+  },
+  {
+    "step": 300,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-300",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9160228371620178,
+        "std": 0.16861814260482788,
+        "min": 0.43829506635665894,
+        "max": 1.3837532997131348,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9160228371620178,
+        "std": 0.16861814260482788,
+        "min": 0.43829506635665894,
+        "max": 1.3837532997131348,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:25:07.869956"
+  },
+  {
+    "step": 360,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-360",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.923129141330719,
+        "std": 0.16700612008571625,
+        "min": 0.44717782735824585,
+        "max": 1.4046574831008911,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.923129141330719,
+        "std": 0.16700612008571625,
+        "min": 0.44717782735824585,
+        "max": 1.4046574831008911,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:27:19.041124"
+  },
+  {
+    "step": 420,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-420",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9370195269584656,
+        "std": 0.1628396064043045,
+        "min": 0.44023212790489197,
+        "max": 1.3573821783065796,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9370195269584656,
+        "std": 0.1628396064043045,
+        "min": 0.44023212790489197,
+        "max": 1.3573821783065796,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:29:26.474143"
+  },
+  {
+    "step": 480,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-480",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9343681931495667,
+        "std": 0.16246461868286133,
+        "min": 0.4694782495498657,
+        "max": 1.4999936819076538,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9343681931495667,
+        "std": 0.16246461868286133,
+        "min": 0.4694782495498657,
+        "max": 1.4999936819076538,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:31:32.011065"
+  },
+  {
+    "step": 540,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-540",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9423232078552246,
+        "std": 0.15936732292175293,
+        "min": 0.5288152098655701,
+        "max": 1.3854001760482788,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9423232078552246,
+        "std": 0.15936732292175293,
+        "min": 0.5288152098655701,
+        "max": 1.3854001760482788,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:33:37.940618"
+  },
+  {
+    "step": 600,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-600",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9466859698295593,
+        "std": 0.16080054640769958,
+        "min": 0.48059767484664917,
+        "max": 1.377053141593933,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9466859698295593,
+        "std": 0.16080054640769958,
+        "min": 0.48059767484664917,
+        "max": 1.377053141593933,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:35:49.861365"
+  },
+  {
+    "step": 660,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-660",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9445622563362122,
+        "std": 0.1577204316854477,
+        "min": 0.4882737100124359,
+        "max": 1.4357080459594727,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9445622563362122,
+        "std": 0.1577204316854477,
+        "min": 0.4882737100124359,
+        "max": 1.4357080459594727,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:38:01.737307"
+  },
+  {
+    "step": 720,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-720",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9378183484077454,
+        "std": 0.1581338495016098,
+        "min": 0.5212340950965881,
+        "max": 1.4448790550231934,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9378183484077454,
+        "std": 0.1581338495016098,
+        "min": 0.5212340950965881,
+        "max": 1.4448790550231934,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:40:14.899287"
+  },
+  {
+    "step": 780,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-780",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9438824653625488,
+        "std": 0.1545080989599228,
+        "min": 0.5714133977890015,
+        "max": 1.4389674663543701,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9438824653625488,
+        "std": 0.1545080989599228,
+        "min": 0.5714133977890015,
+        "max": 1.4389674663543701,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:42:24.906865"
+  },
+  {
+    "step": 840,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-840",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9367257952690125,
+        "std": 0.15804357826709747,
+        "min": 0.5066006779670715,
+        "max": 1.3924554586410522,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9367257952690125,
+        "std": 0.15804357826709747,
+        "min": 0.5066006779670715,
+        "max": 1.3924554586410522,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:44:30.940719"
+  },
+  {
+    "step": 900,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-900",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9243011474609375,
+        "std": 0.1599806845188141,
+        "min": 0.4642980396747589,
+        "max": 1.455453872680664,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9243011474609375,
+        "std": 0.1599806845188141,
+        "min": 0.4642980396747589,
+        "max": 1.455453872680664,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:46:41.655714"
+  },
+  {
+    "step": 960,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-960",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9277397990226746,
+        "std": 0.15663805603981018,
+        "min": 0.48193198442459106,
+        "max": 1.395253300666809,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9277397990226746,
+        "std": 0.15663805603981018,
+        "min": 0.48193198442459106,
+        "max": 1.395253300666809,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:48:51.051350"
+  },
+  {
+    "step": 1020,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-1020",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9357795715332031,
+        "std": 0.15623340010643005,
+        "min": 0.49533069133758545,
+        "max": 1.3925811052322388,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9357795715332031,
+        "std": 0.15623340010643005,
+        "min": 0.49533069133758545,
+        "max": 1.3925811052322388,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:51:00.310409"
+  },
+  {
+    "step": 1080,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-1080",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9553661942481995,
+        "std": 0.15559402108192444,
+        "min": 0.5070152282714844,
+        "max": 1.3653672933578491,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9553661942481995,
+        "std": 0.15559402108192444,
+        "min": 0.5070152282714844,
+        "max": 1.3653672933578491,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:53:11.827561"
+  },
+  {
+    "step": 1140,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-1140",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9733292460441589,
+        "std": 0.1544620245695114,
+        "min": 0.5497308969497681,
+        "max": 1.4088774919509888,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9733292460441589,
+        "std": 0.1544620245695114,
+        "min": 0.5497308969497681,
+        "max": 1.4088774919509888,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:55:23.437919"
+  },
+  {
+    "step": 1200,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-1200",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9634507298469543,
+        "std": 0.15588077902793884,
+        "min": 0.558728814125061,
+        "max": 1.4350389242172241,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9634507298469543,
+        "std": 0.15588077902793884,
+        "min": 0.558728814125061,
+        "max": 1.4350389242172241,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:57:29.337026"
+  },
+  {
+    "step": 1260,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-1260",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9635434150695801,
+        "std": 0.15556776523590088,
+        "min": 0.5434993505477905,
+        "max": 1.4089332818984985,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9635434150695801,
+        "std": 0.15556776523590088,
+        "min": 0.5434993505477905,
+        "max": 1.4089332818984985,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T11:59:39.289361"
+  },
+  {
+    "step": 1320,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-1320",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9659364819526672,
+        "std": 0.155358225107193,
+        "min": 0.5814570784568787,
+        "max": 1.4054088592529297,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9659364819526672,
+        "std": 0.155358225107193,
+        "min": 0.5814570784568787,
+        "max": 1.4054088592529297,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:01:50.222985"
+  },
+  {
+    "step": 1380,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-1380",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9520272612571716,
+        "std": 0.16087141633033752,
+        "min": 0.4960947632789612,
+        "max": 1.429054617881775,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9520272612571716,
+        "std": 0.16087141633033752,
+        "min": 0.4960947632789612,
+        "max": 1.429054617881775,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:03:57.014641"
+  },
+  {
+    "step": 1440,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-1440",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9594313502311707,
+        "std": 0.15626461803913116,
+        "min": 0.5674158334732056,
+        "max": 1.4318773746490479,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9594313502311707,
+        "std": 0.15626461803913116,
+        "min": 0.5674158334732056,
+        "max": 1.4318773746490479,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:06:07.705389"
+  },
+  {
+    "step": 1500,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-1500",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9586195349693298,
+        "std": 0.1594582200050354,
+        "min": 0.5304259061813354,
+        "max": 1.4184331893920898,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9586195349693298,
+        "std": 0.1594582200050354,
+        "min": 0.5304259061813354,
+        "max": 1.4184331893920898,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:08:16.932070"
+  },
+  {
+    "step": 1560,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-1560",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.963649570941925,
+        "std": 0.1488540768623352,
+        "min": 0.5307482481002808,
+        "max": 1.4189800024032593,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.963649570941925,
+        "std": 0.1488540768623352,
+        "min": 0.5307482481002808,
+        "max": 1.4189800024032593,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:10:23.401319"
+  },
+  {
+    "step": 1620,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-1620",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9547803997993469,
+        "std": 0.1533566564321518,
+        "min": 0.48653659224510193,
+        "max": 1.4092837572097778,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9547803997993469,
+        "std": 0.1533566564321518,
+        "min": 0.48653659224510193,
+        "max": 1.4092837572097778,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:12:35.151337"
+  },
+  {
+    "step": 1680,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-1680",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9619895815849304,
+        "std": 0.15504352748394012,
+        "min": 0.5774120092391968,
+        "max": 1.4154614210128784,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9619895815849304,
+        "std": 0.15504352748394012,
+        "min": 0.5774120092391968,
+        "max": 1.4154614210128784,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:14:42.573828"
+  },
+  {
+    "step": 1740,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-1740",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9612420201301575,
+        "std": 0.1556597799062729,
+        "min": 0.5363752841949463,
+        "max": 1.4003870487213135,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9612420201301575,
+        "std": 0.1556597799062729,
+        "min": 0.5363752841949463,
+        "max": 1.4003870487213135,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:16:51.806318"
+  },
+  {
+    "step": 1800,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-1800",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.950106143951416,
+        "std": 0.1581794023513794,
+        "min": 0.5325875878334045,
+        "max": 1.4327656030654907,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.950106143951416,
+        "std": 0.1581794023513794,
+        "min": 0.5325875878334045,
+        "max": 1.4327656030654907,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:19:03.432793"
+  },
+  {
+    "step": 1860,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-1860",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9641713500022888,
+        "std": 0.1520303636789322,
+        "min": 0.5332919359207153,
+        "max": 1.3631994724273682,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9641713500022888,
+        "std": 0.1520303636789322,
+        "min": 0.5332919359207153,
+        "max": 1.3631994724273682,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:21:12.866854"
+  },
+  {
+    "step": 1920,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-1920",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9600794911384583,
+        "std": 0.15624307096004486,
+        "min": 0.5375877022743225,
+        "max": 1.4679100513458252,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9600794911384583,
+        "std": 0.15624307096004486,
+        "min": 0.5375877022743225,
+        "max": 1.4679100513458252,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:23:19.594045"
+  },
+  {
+    "step": 1980,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-1980",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9444580674171448,
+        "std": 0.15665075182914734,
+        "min": 0.535159707069397,
+        "max": 1.4360549449920654,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9444580674171448,
+        "std": 0.15665075182914734,
+        "min": 0.535159707069397,
+        "max": 1.4360549449920654,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:25:26.096862"
+  },
+  {
+    "step": 2040,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-2040",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9565702080726624,
+        "std": 0.15501706302165985,
+        "min": 0.5471342206001282,
+        "max": 1.4529306888580322,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9565702080726624,
+        "std": 0.15501706302165985,
+        "min": 0.5471342206001282,
+        "max": 1.4529306888580322,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:27:34.576591"
+  },
+  {
+    "step": 2100,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-2100",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9543724060058594,
+        "std": 0.16130554676055908,
+        "min": 0.5435138940811157,
+        "max": 1.4307504892349243,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9543724060058594,
+        "std": 0.16130554676055908,
+        "min": 0.5435138940811157,
+        "max": 1.4307504892349243,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:29:40.728962"
+  },
+  {
+    "step": 2160,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-2160",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9454848766326904,
+        "std": 0.15338830649852753,
+        "min": 0.5694002509117126,
+        "max": 1.3894656896591187,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9454848766326904,
+        "std": 0.15338830649852753,
+        "min": 0.5694002509117126,
+        "max": 1.3894656896591187,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:31:52.262555"
+  },
+  {
+    "step": 2220,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-2220",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9494740962982178,
+        "std": 0.1578044444322586,
+        "min": 0.5254673361778259,
+        "max": 1.4140691757202148,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9494740962982178,
+        "std": 0.1578044444322586,
+        "min": 0.5254673361778259,
+        "max": 1.4140691757202148,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:34:04.898992"
+  },
+  {
+    "step": 2280,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-2280",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9404423236846924,
+        "std": 0.15994349122047424,
+        "min": 0.45675554871559143,
+        "max": 1.4016305208206177,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9404423236846924,
+        "std": 0.15994349122047424,
+        "min": 0.45675554871559143,
+        "max": 1.4016305208206177,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:36:11.619396"
+  },
+  {
+    "step": 2340,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-2340",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.952688455581665,
+        "std": 0.16099999845027924,
+        "min": 0.4098568260669708,
+        "max": 1.3949419260025024,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.952688455581665,
+        "std": 0.16099999845027924,
+        "min": 0.4098568260669708,
+        "max": 1.3949419260025024,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:38:20.685154"
+  },
+  {
+    "step": 2400,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-2400",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9612156748771667,
+        "std": 0.15528404712677002,
+        "min": 0.5391398668289185,
+        "max": 1.4050405025482178,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9612156748771667,
+        "std": 0.15528404712677002,
+        "min": 0.5391398668289185,
+        "max": 1.4050405025482178,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:40:32.235852"
+  },
+  {
+    "step": 2460,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-2460",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9598960280418396,
+        "std": 0.15076707303524017,
+        "min": 0.5618829727172852,
+        "max": 1.3865277767181396,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9598960280418396,
+        "std": 0.15076707303524017,
+        "min": 0.5618829727172852,
+        "max": 1.3865277767181396,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:42:43.857811"
+  },
+  {
+    "step": 2520,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-2520",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9604015350341797,
+        "std": 0.15618211030960083,
+        "min": 0.5479824542999268,
+        "max": 1.4256558418273926,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9604015350341797,
+        "std": 0.15618211030960083,
+        "min": 0.5479824542999268,
+        "max": 1.4256558418273926,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:44:51.754642"
+  },
+  {
+    "step": 2580,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-2580",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9632317423820496,
+        "std": 0.15356089174747467,
+        "min": 0.5441791415214539,
+        "max": 1.3975692987442017,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9632317423820496,
+        "std": 0.15356089174747467,
+        "min": 0.5441791415214539,
+        "max": 1.3975692987442017,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:47:02.691520"
+  },
+  {
+    "step": 2640,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-2640",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9572072625160217,
+        "std": 0.15462252497673035,
+        "min": 0.5985036492347717,
+        "max": 1.382825493812561,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9572072625160217,
+        "std": 0.15462252497673035,
+        "min": 0.5985036492347717,
+        "max": 1.382825493812561,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:49:12.055047"
+  },
+  {
+    "step": 2700,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-2700",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9597904086112976,
+        "std": 0.15188966691493988,
+        "min": 0.5540154576301575,
+        "max": 1.4340457916259766,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9597904086112976,
+        "std": 0.15188966691493988,
+        "min": 0.5540154576301575,
+        "max": 1.4340457916259766,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:51:23.570737"
+  },
+  {
+    "step": 2760,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-2760",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9502703547477722,
+        "std": 0.15539874136447906,
+        "min": 0.554046630859375,
+        "max": 1.4694530963897705,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9502703547477722,
+        "std": 0.15539874136447906,
+        "min": 0.554046630859375,
+        "max": 1.4694530963897705,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:53:33.722894"
+  },
+  {
+    "step": 2820,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-2820",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9466363787651062,
+        "std": 0.15759128332138062,
+        "min": 0.46458715200424194,
+        "max": 1.4637739658355713,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9466363787651062,
+        "std": 0.15759128332138062,
+        "min": 0.46458715200424194,
+        "max": 1.4637739658355713,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:55:39.261518"
+  },
+  {
+    "step": 2880,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-2880",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9548275470733643,
+        "std": 0.1509837955236435,
+        "min": 0.5672049522399902,
+        "max": 1.4005742073059082,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9548275470733643,
+        "std": 0.1509837955236435,
+        "min": 0.5672049522399902,
+        "max": 1.4005742073059082,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:57:45.755877"
+  },
+  {
+    "step": 2940,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-2940",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9491698145866394,
+        "std": 0.1559119075536728,
+        "min": 0.5089524984359741,
+        "max": 1.4807835817337036,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9491698145866394,
+        "std": 0.1559119075536728,
+        "min": 0.5089524984359741,
+        "max": 1.4807835817337036,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T12:59:57.612817"
+  },
+  {
+    "step": 3000,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-3000",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.948023796081543,
+        "std": 0.15452641248703003,
+        "min": 0.48675107955932617,
+        "max": 1.4317207336425781,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.948023796081543,
+        "std": 0.15452641248703003,
+        "min": 0.48675107955932617,
+        "max": 1.4317207336425781,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:02:06.103574"
+  },
+  {
+    "step": 3060,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-3060",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9634994864463806,
+        "std": 0.14926552772521973,
+        "min": 0.5336054563522339,
+        "max": 1.4213201999664307,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9634994864463806,
+        "std": 0.14926552772521973,
+        "min": 0.5336054563522339,
+        "max": 1.4213201999664307,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:04:13.506740"
+  },
+  {
+    "step": 3120,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-3120",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9658487439155579,
+        "std": 0.1540648192167282,
+        "min": 0.4757559895515442,
+        "max": 1.414198637008667,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9658487439155579,
+        "std": 0.1540648192167282,
+        "min": 0.4757559895515442,
+        "max": 1.414198637008667,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:06:23.539806"
+  },
+  {
+    "step": 3180,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-3180",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9658474922180176,
+        "std": 0.1487114578485489,
+        "min": 0.5355052947998047,
+        "max": 1.4050891399383545,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9658474922180176,
+        "std": 0.1487114578485489,
+        "min": 0.5355052947998047,
+        "max": 1.4050891399383545,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:08:34.172469"
+  },
+  {
+    "step": 3240,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-3240",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9456884264945984,
+        "std": 0.15692861378192902,
+        "min": 0.5111185312271118,
+        "max": 1.4864028692245483,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9456884264945984,
+        "std": 0.15692861378192902,
+        "min": 0.5111185312271118,
+        "max": 1.4864028692245483,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:10:43.909453"
+  },
+  {
+    "step": 3300,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-3300",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9528583884239197,
+        "std": 0.15433067083358765,
+        "min": 0.5321769118309021,
+        "max": 1.4460395574569702,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9528583884239197,
+        "std": 0.15433067083358765,
+        "min": 0.5321769118309021,
+        "max": 1.4460395574569702,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:12:52.737142"
+  },
+  {
+    "step": 3360,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-3360",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9486150145530701,
+        "std": 0.15168653428554535,
+        "min": 0.5003100633621216,
+        "max": 1.3957916498184204,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9486150145530701,
+        "std": 0.15168653428554535,
+        "min": 0.5003100633621216,
+        "max": 1.3957916498184204,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:14:58.849925"
+  },
+  {
+    "step": 3420,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-3420",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.949819803237915,
+        "std": 0.14894486963748932,
+        "min": 0.5312581658363342,
+        "max": 1.409568428993225,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.949819803237915,
+        "std": 0.14894486963748932,
+        "min": 0.5312581658363342,
+        "max": 1.409568428993225,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:17:06.795432"
+  },
+  {
+    "step": 3480,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-3480",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9432483315467834,
+        "std": 0.14838196337223053,
+        "min": 0.5829338431358337,
+        "max": 1.4119240045547485,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9432483315467834,
+        "std": 0.14838196337223053,
+        "min": 0.5829338431358337,
+        "max": 1.4119240045547485,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:19:17.031540"
+  },
+  {
+    "step": 3540,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-3540",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9355980753898621,
+        "std": 0.1549004167318344,
+        "min": 0.5251807570457458,
+        "max": 1.3103406429290771,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9355980753898621,
+        "std": 0.1549004167318344,
+        "min": 0.5251807570457458,
+        "max": 1.3103406429290771,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:21:27.801887"
+  },
+  {
+    "step": 3600,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-3600",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9376381039619446,
+        "std": 0.15121042728424072,
+        "min": 0.5258742570877075,
+        "max": 1.4068130254745483,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9376381039619446,
+        "std": 0.15121042728424072,
+        "min": 0.5258742570877075,
+        "max": 1.4068130254745483,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:23:36.371783"
+  },
+  {
+    "step": 3660,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-3660",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9417448043823242,
+        "std": 0.1520584374666214,
+        "min": 0.5445008277893066,
+        "max": 1.347840666770935,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9417448043823242,
+        "std": 0.1520584374666214,
+        "min": 0.5445008277893066,
+        "max": 1.347840666770935,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:25:45.018925"
+  },
+  {
+    "step": 3720,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-3720",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9440823197364807,
+        "std": 0.15459853410720825,
+        "min": 0.5279955267906189,
+        "max": 1.361748456954956,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9440823197364807,
+        "std": 0.15459853410720825,
+        "min": 0.5279955267906189,
+        "max": 1.361748456954956,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:27:51.845037"
+  },
+  {
+    "step": 3780,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-3780",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9439702033996582,
+        "std": 0.15250164270401,
+        "min": 0.5175395607948303,
+        "max": 1.3624393939971924,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9439702033996582,
+        "std": 0.15250164270401,
+        "min": 0.5175395607948303,
+        "max": 1.3624393939971924,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:30:03.569513"
+  },
+  {
+    "step": 3840,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-3840",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9523625373840332,
+        "std": 0.15516585111618042,
+        "min": 0.5589963793754578,
+        "max": 1.3746368885040283,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9523625373840332,
+        "std": 0.15516585111618042,
+        "min": 0.5589963793754578,
+        "max": 1.3746368885040283,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:32:11.806270"
+  },
+  {
+    "step": 3900,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-3900",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9485230445861816,
+        "std": 0.15470215678215027,
+        "min": 0.5565675497055054,
+        "max": 1.427650809288025,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9485230445861816,
+        "std": 0.15470215678215027,
+        "min": 0.5565675497055054,
+        "max": 1.427650809288025,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:34:19.242996"
+  },
+  {
+    "step": 3960,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-3960",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9527461528778076,
+        "std": 0.15099868178367615,
+        "min": 0.5704941153526306,
+        "max": 1.3673206567764282,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9527461528778076,
+        "std": 0.15099868178367615,
+        "min": 0.5704941153526306,
+        "max": 1.3673206567764282,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:36:27.450063"
+  },
+  {
+    "step": 4020,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-4020",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9514409899711609,
+        "std": 0.15280041098594666,
+        "min": 0.5301493406295776,
+        "max": 1.41798996925354,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9514409899711609,
+        "std": 0.15280041098594666,
+        "min": 0.5301493406295776,
+        "max": 1.41798996925354,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:38:33.787955"
+  },
+  {
+    "step": 4080,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-4080",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9518755078315735,
+        "std": 0.15584488213062286,
+        "min": 0.5629914999008179,
+        "max": 1.4574490785598755,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9518755078315735,
+        "std": 0.15584488213062286,
+        "min": 0.5629914999008179,
+        "max": 1.4574490785598755,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:40:53.439252"
+  },
+  {
+    "step": 4140,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-4140",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.950377881526947,
+        "std": 0.1515025496482849,
+        "min": 0.5525470972061157,
+        "max": 1.4748725891113281,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.950377881526947,
+        "std": 0.1515025496482849,
+        "min": 0.5525470972061157,
+        "max": 1.4748725891113281,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:43:10.581158"
+  },
+  {
+    "step": 4200,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-4200",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9502363204956055,
+        "std": 0.14832459390163422,
+        "min": 0.5640450716018677,
+        "max": 1.3839517831802368,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9502363204956055,
+        "std": 0.14832459390163422,
+        "min": 0.5640450716018677,
+        "max": 1.3839517831802368,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:45:23.319386"
+  },
+  {
+    "step": 4260,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-4260",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9442233443260193,
+        "std": 0.14995577931404114,
+        "min": 0.5640827417373657,
+        "max": 1.4897512197494507,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9442233443260193,
+        "std": 0.14995577931404114,
+        "min": 0.5640827417373657,
+        "max": 1.4897512197494507,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:47:32.059838"
+  },
+  {
+    "step": 4320,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-4320",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9559701085090637,
+        "std": 0.15002532303333282,
+        "min": 0.5133310556411743,
+        "max": 1.4986456632614136,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9559701085090637,
+        "std": 0.15002532303333282,
+        "min": 0.5133310556411743,
+        "max": 1.4986456632614136,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:49:38.672250"
+  },
+  {
+    "step": 4380,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-4380",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9638161659240723,
+        "std": 0.14692947268486023,
+        "min": 0.5688923001289368,
+        "max": 1.472699761390686,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9638161659240723,
+        "std": 0.14692947268486023,
+        "min": 0.5688923001289368,
+        "max": 1.472699761390686,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:51:44.424983"
+  },
+  {
+    "step": 4440,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-4440",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9685887694358826,
+        "std": 0.14657635986804962,
+        "min": 0.5657808184623718,
+        "max": 1.605292558670044,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9685887694358826,
+        "std": 0.14657635986804962,
+        "min": 0.5657808184623718,
+        "max": 1.605292558670044,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:53:55.089913"
+  },
+  {
+    "step": 4500,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-4500",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9557137489318848,
+        "std": 0.15060876309871674,
+        "min": 0.5270183086395264,
+        "max": 1.5924571752548218,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9557137489318848,
+        "std": 0.15060876309871674,
+        "min": 0.5270183086395264,
+        "max": 1.5924571752548218,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:56:02.386142"
+  },
+  {
+    "step": 4560,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-4560",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.947453498840332,
+        "std": 0.14992421865463257,
+        "min": 0.5989753007888794,
+        "max": 1.4246480464935303,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.947453498840332,
+        "std": 0.14992421865463257,
+        "min": 0.5989753007888794,
+        "max": 1.4246480464935303,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T13:58:07.817965"
+  },
+  {
+    "step": 4620,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-4620",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.944434404373169,
+        "std": 0.1469118893146515,
+        "min": 0.5914843678474426,
+        "max": 1.3795192241668701,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.944434404373169,
+        "std": 0.1469118893146515,
+        "min": 0.5914843678474426,
+        "max": 1.3795192241668701,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:00:15.042822"
+  },
+  {
+    "step": 4680,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-4680",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9549710154533386,
+        "std": 0.1479850709438324,
+        "min": 0.5373188853263855,
+        "max": 1.43166983127594,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9549710154533386,
+        "std": 0.1479850709438324,
+        "min": 0.5373188853263855,
+        "max": 1.43166983127594,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:02:20.873101"
+  },
+  {
+    "step": 4740,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-4740",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9446179270744324,
+        "std": 0.15012559294700623,
+        "min": 0.556456446647644,
+        "max": 1.4236781597137451,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9446179270744324,
+        "std": 0.15012559294700623,
+        "min": 0.556456446647644,
+        "max": 1.4236781597137451,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:04:29.635818"
+  },
+  {
+    "step": 4800,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-4800",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.95477694272995,
+        "std": 0.1485944390296936,
+        "min": 0.5829930901527405,
+        "max": 1.4774408340454102,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.95477694272995,
+        "std": 0.1485944390296936,
+        "min": 0.5829930901527405,
+        "max": 1.4774408340454102,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:06:37.804232"
+  },
+  {
+    "step": 4860,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-4860",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.948185384273529,
+        "std": 0.14764267206192017,
+        "min": 0.5170553922653198,
+        "max": 1.3775887489318848,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.948185384273529,
+        "std": 0.14764267206192017,
+        "min": 0.5170553922653198,
+        "max": 1.3775887489318848,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:08:45.116970"
+  },
+  {
+    "step": 4920,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-4920",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9379170536994934,
+        "std": 0.15060128271579742,
+        "min": 0.5311660170555115,
+        "max": 1.4625611305236816,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9379170536994934,
+        "std": 0.15060128271579742,
+        "min": 0.5311660170555115,
+        "max": 1.4625611305236816,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:10:54.529693"
+  },
+  {
+    "step": 4980,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-4980",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.953987181186676,
+        "std": 0.14477360248565674,
+        "min": 0.6029630303382874,
+        "max": 1.450562596321106,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.953987181186676,
+        "std": 0.14477360248565674,
+        "min": 0.6029630303382874,
+        "max": 1.450562596321106,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:13:02.382853"
+  },
+  {
+    "step": 5040,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-5040",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9446941018104553,
+        "std": 0.13994626700878143,
+        "min": 0.6063042283058167,
+        "max": 1.4218274354934692,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9446941018104553,
+        "std": 0.13994626700878143,
+        "min": 0.6063042283058167,
+        "max": 1.4218274354934692,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:15:09.380642"
+  },
+  {
+    "step": 5100,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-5100",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9384971261024475,
+        "std": 0.14673413336277008,
+        "min": 0.5402880907058716,
+        "max": 1.3539358377456665,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9384971261024475,
+        "std": 0.14673413336277008,
+        "min": 0.5402880907058716,
+        "max": 1.3539358377456665,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:17:20.356807"
+  },
+  {
+    "step": 5160,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-5160",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9427693486213684,
+        "std": 0.14698614180088043,
+        "min": 0.5362675786018372,
+        "max": 1.4216032028198242,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9427693486213684,
+        "std": 0.14698614180088043,
+        "min": 0.5362675786018372,
+        "max": 1.4216032028198242,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:19:26.459151"
+  },
+  {
+    "step": 5220,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-5220",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9369747638702393,
+        "std": 0.14584039151668549,
+        "min": 0.5482648015022278,
+        "max": 1.4096705913543701,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9369747638702393,
+        "std": 0.14584039151668549,
+        "min": 0.5482648015022278,
+        "max": 1.4096705913543701,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:21:31.359181"
+  },
+  {
+    "step": 5280,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-5280",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9580274224281311,
+        "std": 0.14611032605171204,
+        "min": 0.5858155488967896,
+        "max": 1.5212422609329224,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9580274224281311,
+        "std": 0.14611032605171204,
+        "min": 0.5858155488967896,
+        "max": 1.5212422609329224,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:23:36.800712"
+  },
+  {
+    "step": 5340,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-5340",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9536867141723633,
+        "std": 0.14996738731861115,
+        "min": 0.4410695731639862,
+        "max": 1.5485718250274658,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9536867141723633,
+        "std": 0.14996738731861115,
+        "min": 0.4410695731639862,
+        "max": 1.5485718250274658,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:25:45.024793"
+  },
+  {
+    "step": 5400,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-5400",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9551975131034851,
+        "std": 0.1449020951986313,
+        "min": 0.5654756426811218,
+        "max": 1.4304664134979248,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9551975131034851,
+        "std": 0.1449020951986313,
+        "min": 0.5654756426811218,
+        "max": 1.4304664134979248,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:27:56.202857"
+  },
+  {
+    "step": 5460,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-5460",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9525644183158875,
+        "std": 0.14792126417160034,
+        "min": 0.5059826374053955,
+        "max": 1.4646272659301758,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9525644183158875,
+        "std": 0.14792126417160034,
+        "min": 0.5059826374053955,
+        "max": 1.4646272659301758,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:30:04.945783"
+  },
+  {
+    "step": 5520,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-5520",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9255168437957764,
+        "std": 0.15129001438617706,
+        "min": 0.45567575097084045,
+        "max": 1.4185712337493896,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9255168437957764,
+        "std": 0.15129001438617706,
+        "min": 0.45567575097084045,
+        "max": 1.4185712337493896,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:32:15.533265"
+  },
+  {
+    "step": 5580,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-5580",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9401616454124451,
+        "std": 0.1486283838748932,
+        "min": 0.5463597178459167,
+        "max": 1.4362517595291138,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9401616454124451,
+        "std": 0.1486283838748932,
+        "min": 0.5463597178459167,
+        "max": 1.4362517595291138,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:34:25.998127"
+  },
+  {
+    "step": 5640,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-5640",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9445118308067322,
+        "std": 0.15402115881443024,
+        "min": 0.48377367854118347,
+        "max": 1.3824093341827393,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9445118308067322,
+        "std": 0.15402115881443024,
+        "min": 0.48377367854118347,
+        "max": 1.3824093341827393,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:36:30.832730"
+  },
+  {
+    "step": 5700,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-5700",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9317705631256104,
+        "std": 0.15223853290081024,
+        "min": 0.4668194353580475,
+        "max": 1.403862714767456,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9317705631256104,
+        "std": 0.15223853290081024,
+        "min": 0.4668194353580475,
+        "max": 1.403862714767456,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:38:39.420953"
+  },
+  {
+    "step": 5760,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-5760",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9221492409706116,
+        "std": 0.15864041447639465,
+        "min": 0.42557454109191895,
+        "max": 1.4718902111053467,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9221492409706116,
+        "std": 0.15864041447639465,
+        "min": 0.42557454109191895,
+        "max": 1.4718902111053467,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:40:45.947140"
+  },
+  {
+    "step": 5820,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-5820",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9394468665122986,
+        "std": 0.15223604440689087,
+        "min": 0.46597203612327576,
+        "max": 1.536119818687439,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9394468665122986,
+        "std": 0.15223604440689087,
+        "min": 0.46597203612327576,
+        "max": 1.536119818687439,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:42:53.409594"
+  },
+  {
+    "step": 5880,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-5880",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9427301287651062,
+        "std": 0.1512611210346222,
+        "min": 0.4008391499519348,
+        "max": 1.4741519689559937,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9427301287651062,
+        "std": 0.1512611210346222,
+        "min": 0.4008391499519348,
+        "max": 1.4741519689559937,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:44:59.438538"
+  },
+  {
+    "step": 5940,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-5940",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9381139874458313,
+        "std": 0.1514776200056076,
+        "min": 0.45612040162086487,
+        "max": 1.4551135301589966,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9381139874458313,
+        "std": 0.1514776200056076,
+        "min": 0.45612040162086487,
+        "max": 1.4551135301589966,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:47:05.215051"
+  },
+  {
+    "step": 6000,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-6000",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9225068092346191,
+        "std": 0.1500331610441208,
+        "min": 0.5165859460830688,
+        "max": 1.4010224342346191,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9225068092346191,
+        "std": 0.1500331610441208,
+        "min": 0.5165859460830688,
+        "max": 1.4010224342346191,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:49:16.221496"
+  },
+  {
+    "step": 6060,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-6060",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9447817802429199,
+        "std": 0.14875859022140503,
+        "min": 0.5040755271911621,
+        "max": 1.5280227661132812,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9447817802429199,
+        "std": 0.14875859022140503,
+        "min": 0.5040755271911621,
+        "max": 1.5280227661132812,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:51:23.599365"
+  },
+  {
+    "step": 6120,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-6120",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9501824975013733,
+        "std": 0.1441846489906311,
+        "min": 0.5847335457801819,
+        "max": 1.419039249420166,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9501824975013733,
+        "std": 0.1441846489906311,
+        "min": 0.5847335457801819,
+        "max": 1.419039249420166,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:53:33.687562"
+  },
+  {
+    "step": 6180,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-6180",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9574117660522461,
+        "std": 0.14782050251960754,
+        "min": 0.5522431135177612,
+        "max": 1.4304810762405396,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9574117660522461,
+        "std": 0.14782050251960754,
+        "min": 0.5522431135177612,
+        "max": 1.4304810762405396,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:55:39.323099"
+  },
+  {
+    "step": 6240,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-6240",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.938775360584259,
+        "std": 0.15333053469657898,
+        "min": 0.45198854804039,
+        "max": 1.4817495346069336,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.938775360584259,
+        "std": 0.15333053469657898,
+        "min": 0.45198854804039,
+        "max": 1.4817495346069336,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:57:45.012057"
+  },
+  {
+    "step": 6300,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-6300",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.939243495464325,
+        "std": 0.1477595865726471,
+        "min": 0.47099021077156067,
+        "max": 1.4674711227416992,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.939243495464325,
+        "std": 0.1477595865726471,
+        "min": 0.47099021077156067,
+        "max": 1.4674711227416992,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T14:59:52.764515"
+  },
+  {
+    "step": 6360,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-6360",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9404061436653137,
+        "std": 0.15104474127292633,
+        "min": 0.5090905427932739,
+        "max": 1.5156499147415161,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9404061436653137,
+        "std": 0.15104474127292633,
+        "min": 0.5090905427932739,
+        "max": 1.5156499147415161,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:01:57.379853"
+  },
+  {
+    "step": 6420,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-6420",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9346065521240234,
+        "std": 0.14900405704975128,
+        "min": 0.47812843322753906,
+        "max": 1.4550769329071045,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9346065521240234,
+        "std": 0.14900405704975128,
+        "min": 0.47812843322753906,
+        "max": 1.4550769329071045,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:04:03.884863"
+  },
+  {
+    "step": 6480,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-6480",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9291952252388,
+        "std": 0.15629975497722626,
+        "min": 0.5311534404754639,
+        "max": 1.4417649507522583,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9291952252388,
+        "std": 0.15629975497722626,
+        "min": 0.5311534404754639,
+        "max": 1.4417649507522583,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:06:10.348259"
+  },
+  {
+    "step": 6540,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-6540",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9274222254753113,
+        "std": 0.14909391105175018,
+        "min": 0.4835112392902374,
+        "max": 1.4548734426498413,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9274222254753113,
+        "std": 0.14909391105175018,
+        "min": 0.4835112392902374,
+        "max": 1.4548734426498413,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:08:15.071254"
+  },
+  {
+    "step": 6600,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-6600",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9188893437385559,
+        "std": 0.15470010042190552,
+        "min": 0.4917779266834259,
+        "max": 1.5299415588378906,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9188893437385559,
+        "std": 0.15470010042190552,
+        "min": 0.4917779266834259,
+        "max": 1.5299415588378906,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:10:25.017464"
+  },
+  {
+    "step": 6660,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-6660",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9368529319763184,
+        "std": 0.15089918673038483,
+        "min": 0.513827383518219,
+        "max": 1.4162040948867798,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9368529319763184,
+        "std": 0.15089918673038483,
+        "min": 0.513827383518219,
+        "max": 1.4162040948867798,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:12:32.109310"
+  },
+  {
+    "step": 6720,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-6720",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9424341320991516,
+        "std": 0.15140622854232788,
+        "min": 0.5225169658660889,
+        "max": 1.4715216159820557,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9424341320991516,
+        "std": 0.15140622854232788,
+        "min": 0.5225169658660889,
+        "max": 1.4715216159820557,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:14:43.075593"
+  },
+  {
+    "step": 6780,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-6780",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.934424638748169,
+        "std": 0.1493786722421646,
+        "min": 0.522872805595398,
+        "max": 1.4306442737579346,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.934424638748169,
+        "std": 0.1493786722421646,
+        "min": 0.522872805595398,
+        "max": 1.4306442737579346,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:16:51.884947"
+  },
+  {
+    "step": 6840,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-6840",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9321174621582031,
+        "std": 0.15335829555988312,
+        "min": 0.5455689430236816,
+        "max": 1.4498618841171265,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9321174621582031,
+        "std": 0.15335829555988312,
+        "min": 0.5455689430236816,
+        "max": 1.4498618841171265,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:18:58.924311"
+  },
+  {
+    "step": 6900,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-6900",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9407270550727844,
+        "std": 0.14743633568286896,
+        "min": 0.4765183925628662,
+        "max": 1.4995455741882324,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9407270550727844,
+        "std": 0.14743633568286896,
+        "min": 0.4765183925628662,
+        "max": 1.4995455741882324,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:21:06.098310"
+  },
+  {
+    "step": 6960,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-6960",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.952085018157959,
+        "std": 0.14939063787460327,
+        "min": 0.5753509402275085,
+        "max": 1.4394954442977905,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.952085018157959,
+        "std": 0.14939063787460327,
+        "min": 0.5753509402275085,
+        "max": 1.4394954442977905,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:23:14.384893"
+  },
+  {
+    "step": 7020,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-7020",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9368035197257996,
+        "std": 0.15049611032009125,
+        "min": 0.47586753964424133,
+        "max": 1.473881721496582,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9368035197257996,
+        "std": 0.15049611032009125,
+        "min": 0.47586753964424133,
+        "max": 1.473881721496582,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:25:20.868858"
+  },
+  {
+    "step": 7080,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-7080",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9445169568061829,
+        "std": 0.1502460241317749,
+        "min": 0.5409991145133972,
+        "max": 1.4927551746368408,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9445169568061829,
+        "std": 0.1502460241317749,
+        "min": 0.5409991145133972,
+        "max": 1.4927551746368408,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:27:28.538816"
+  },
+  {
+    "step": 7140,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-7140",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.954282283782959,
+        "std": 0.1485198438167572,
+        "min": 0.5671889781951904,
+        "max": 1.4890832901000977,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.954282283782959,
+        "std": 0.1485198438167572,
+        "min": 0.5671889781951904,
+        "max": 1.4890832901000977,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:29:40.915904"
+  },
+  {
+    "step": 7200,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-7200",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9291566014289856,
+        "std": 0.15375284850597382,
+        "min": 0.4975804090499878,
+        "max": 1.436362385749817,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9291566014289856,
+        "std": 0.15375284850597382,
+        "min": 0.4975804090499878,
+        "max": 1.436362385749817,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:31:48.697094"
+  },
+  {
+    "step": 7260,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-7260",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9342668652534485,
+        "std": 0.15458069741725922,
+        "min": 0.5228085517883301,
+        "max": 1.4749221801757812,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9342668652534485,
+        "std": 0.15458069741725922,
+        "min": 0.5228085517883301,
+        "max": 1.4749221801757812,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:33:52.703666"
+  },
+  {
+    "step": 7320,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-7320",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9379449486732483,
+        "std": 0.15325067937374115,
+        "min": 0.5386807322502136,
+        "max": 1.478022813796997,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9379449486732483,
+        "std": 0.15325067937374115,
+        "min": 0.5386807322502136,
+        "max": 1.478022813796997,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:36:00.315703"
+  },
+  {
+    "step": 7380,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-7380",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.939306914806366,
+        "std": 0.1548021286725998,
+        "min": 0.5737813115119934,
+        "max": 1.5037671327590942,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.939306914806366,
+        "std": 0.1548021286725998,
+        "min": 0.5737813115119934,
+        "max": 1.5037671327590942,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:38:07.203168"
+  },
+  {
+    "step": 7440,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-7440",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9392428398132324,
+        "std": 0.15100744366645813,
+        "min": 0.5243886709213257,
+        "max": 1.4518007040023804,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9392428398132324,
+        "std": 0.15100744366645813,
+        "min": 0.5243886709213257,
+        "max": 1.4518007040023804,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:40:11.946226"
+  },
+  {
+    "step": 7500,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-7500",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9363830089569092,
+        "std": 0.15454362332820892,
+        "min": 0.49757900834083557,
+        "max": 1.4245110750198364,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9363830089569092,
+        "std": 0.15454362332820892,
+        "min": 0.49757900834083557,
+        "max": 1.4245110750198364,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:42:17.655208"
+  },
+  {
+    "step": 7560,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-7560",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9370479583740234,
+        "std": 0.1530103087425232,
+        "min": 0.547015368938446,
+        "max": 1.5010086297988892,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9370479583740234,
+        "std": 0.1530103087425232,
+        "min": 0.547015368938446,
+        "max": 1.5010086297988892,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:44:25.976456"
+  },
+  {
+    "step": 7620,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-7620",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9386116862297058,
+        "std": 0.14519554376602173,
+        "min": 0.5069352388381958,
+        "max": 1.4594917297363281,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9386116862297058,
+        "std": 0.14519554376602173,
+        "min": 0.5069352388381958,
+        "max": 1.4594917297363281,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:46:33.014092"
+  },
+  {
+    "step": 7680,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-7680",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9313178658485413,
+        "std": 0.1503685563802719,
+        "min": 0.47620123624801636,
+        "max": 1.4728381633758545,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9313178658485413,
+        "std": 0.1503685563802719,
+        "min": 0.47620123624801636,
+        "max": 1.4728381633758545,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:48:39.527952"
+  },
+  {
+    "step": 7740,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-7740",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9355522990226746,
+        "std": 0.15096040070056915,
+        "min": 0.5244388580322266,
+        "max": 1.4669519662857056,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9355522990226746,
+        "std": 0.15096040070056915,
+        "min": 0.5244388580322266,
+        "max": 1.4669519662857056,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:50:45.814560"
+  },
+  {
+    "step": 7800,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-7800",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9247331619262695,
+        "std": 0.15215283632278442,
+        "min": 0.4815751612186432,
+        "max": 1.471663236618042,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9247331619262695,
+        "std": 0.15215283632278442,
+        "min": 0.4815751612186432,
+        "max": 1.471663236618042,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:52:54.624934"
+  },
+  {
+    "step": 7860,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-7860",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9364168643951416,
+        "std": 0.15810702741146088,
+        "min": 0.49740758538246155,
+        "max": 1.530430555343628,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9364168643951416,
+        "std": 0.15810702741146088,
+        "min": 0.49740758538246155,
+        "max": 1.530430555343628,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:55:03.021107"
+  },
+  {
+    "step": 7920,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-7920",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9350716471672058,
+        "std": 0.1514415144920349,
+        "min": 0.466084748506546,
+        "max": 1.4765373468399048,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9350716471672058,
+        "std": 0.1514415144920349,
+        "min": 0.466084748506546,
+        "max": 1.4765373468399048,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:57:09.468303"
+  },
+  {
+    "step": 7980,
+    "checkpoint_path": "/pfs/yangyuanming/code2/models/logs/pickscore/flux-group24-8gpu/checkpoints/checkpoint-7980",
+    "reward_summary": {
+      "clipscore": {
+        "mean": 0.9318262934684753,
+        "std": 0.15505827963352203,
+        "min": 0.6011465191841125,
+        "max": 1.3947725296020508,
+        "count": 384
+      },
+      "avg": {
+        "mean": 0.9318262934684753,
+        "std": 0.15505827963352203,
+        "min": 0.6011465191841125,
+        "max": 1.3947725296020508,
+        "count": 384
+      }
+    },
+    "timestamp": "2025-08-21T15:59:14.263291"
+  }
+]

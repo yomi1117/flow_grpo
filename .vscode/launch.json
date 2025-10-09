@@ -1,0 +1,53 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "Python: torchrun",
+      "type": "python",
+      "request": "attach",
+      "connect": {
+        "host": "localhost",
+        "port": 5679
+      }
+    },
+    {
+      "name": "Python: python",
+      "type": "python",
+      "request": "attach",
+      "connect": {
+        "host": "localhost",
+        "port": 5680
+      }
+    },
+    {
+      "name": "Launch train_sd3_v1_pure_single_online.py",
+      "type": "python",
+      "request": "launch",
+      "program": "/pfs/yangyuanming/code2/flow_grpo/scripts/train_sd3_v1_pure_single_online.py",
+      "args": [
+        "--config",
+        "/pfs/yangyuanming/code2/flow_grpo/config/grpo.py:pickscore_sd3_1gpu_online"
+      ],
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "python": "/opt/conda/envs/flow_grpo/bin/python"
+    },
+    {
+      "name": "Launch train_sd3_v1_fsdp2_online_gpt.py",
+      "type": "python",
+      "request": "launch",
+      "module": "torch.distributed.run",
+      "args": [
+        "--nproc_per_node=1",
+        "/pfs/yangyuanming/code2/flow_grpo/scripts/train_sd3_v1_fsdp2_online_gpt.py",
+        "--config",
+        "/pfs/yangyuanming/code2/flow_grpo/config/grpo.py:pickscore_sd3_1gpu_online"
+      ],
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "python": "/opt/conda/envs/flow_grpo/bin/python"
+    },
+
+  ]
+}
