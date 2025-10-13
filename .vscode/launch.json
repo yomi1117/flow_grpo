@@ -48,6 +48,20 @@
       "justMyCode": false,
       "python": "/opt/conda/envs/flow_grpo/bin/python"
     },
-
+    {
+      "name": "OnlineRM-v3",
+      "type": "python",
+      "request": "launch",
+      "module": "torch.distributed.run",
+      "args": [
+        "--nproc_per_node=1",
+        "/pfs/yangyuanming/code2/flow_grpo/scripts/train_sd3_v3_fsdp2_online_rm.py",
+        "--config",
+        "/pfs/yangyuanming/code2/flow_grpo/config/grpo.py:general_ocr_sd3_1gpu_online"
+      ],
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "python": "/opt/conda/envs/flow_grpo/bin/python"
+    }
   ]
 }
