@@ -704,8 +704,8 @@ def main(_):
                     {
                         "images": [
                             wandb.Image(os.path.join(tmpdir, f"{idx}.jpg"),
-                                        caption=f"{p:.100} | avg: {r:.2f}")
-                            for idx, (p, r) in enumerate(zip(sampled_prompts, sampled_rewards))
+                                        caption=f"{p:.200} | avg: {r:.2f} | rule avg: {rule_r:.2f}")
+                            for idx, (p, r, rule_r) in enumerate(zip(sampled_prompts, sampled_rewards, sampled_rule_rewards))
                         ]
                     },
                     step=global_step,
@@ -719,8 +719,13 @@ def main(_):
         rewards_gathered = {k: all_gather_concat(v) for k, v in samples["rewards"].items()}
         rewards_np = {k: v.cpu().numpy() for k, v in rewards_gathered.items()}
 
+        rule_rewards_gathered = {k: all_gather_concat(v) for k, v in samples["rule_rewards"].items()}
+        rule_rewards_np = {k: v.cpu().numpy() for k, v in rule_rewards_gathered.items()}
+
         if is_main_process():
             wandb.log({"epoch": epoch, **{f"reward_{k}": v.mean() for k, v in rewards_np.items()
+                                          if '_strict_accuracy' not in k and '_accuracy' not in k},
+                                          **{f"rule_reward_{k}": v.mean() for k, v in rule_rewards_np.items()
                                           if '_strict_accuracy' not in k and '_accuracy' not in k}},
                       step=global_step)
 
@@ -931,16 +936,22 @@ def main(_):
             
             # 2. 主进程选择正负样本（每个 prompt 的最高/最低 reward）
             pos_imgs, neg_imgs, pos_prompts = [], [], []
+            noise_beta = config.train.neg_noise_level
             if rank == 0:
                 for prompt in np.unique(prompts_all):
                     idx = np.where(np.array(prompts_all) == prompt)[0]
                     if len(idx) < 2: continue
                     rewards = rule_rewards_np[idx]
                     max_i, min_i = idx[np.argmax(rewards)], idx[np.argmin(rewards)]
-                    if max_i != min_i:
+                    if max_i > min_i + config.train.rule_reward_threshold:
                         pos_imgs.append(images_all[max_i])
-                        neg_imgs.append(images_all[min_i])
+                        # 对负样本加高斯噪声，噪声系数为 beta
+                        neg_img = images_all[min_i].clone()
+                        noise = torch.randn_like(neg_img) * noise_beta
+                        neg_img = (1-noise_beta) * neg_img + noise_beta * noise
+                        neg_imgs.append(neg_img)
                         pos_prompts.append(prompt)
+            
             
             # 3. 广播样本数量和数据
             num_pairs = torch.tensor(len(pos_imgs) if rank == 0 else 0, device=device)
@@ -994,28 +1005,23 @@ def main(_):
             dist.barrier()
             if is_main_process():
                 wandb.log({"reward_loss": loss.item(), "reward_pairs": num_pairs.item()}, step=global_step)
+                
+                # 上传正负样本到wandb（最多16张图，即8对）
+                if num_pairs.item() > 0 and epoch % 5 == 0:
+                    def _to_pil(img_t):
+                        arr = img_t.detach().cpu().numpy()
+                        arr = (arr * 0.5 + 0.5) if arr.min() < 0 else arr
+                        arr = np.clip(arr, 0, 1) * 255
+                        return Image.fromarray(arr.astype(np.uint8).transpose(1,2,0))
+                    
+                    n_show = min(8, num_pairs.item())  # 最多8对=16张图
+                    wandb.log({
+                        "positive_samples": [wandb.Image(_to_pil(pos_imgs[i]), caption=f"{pos_prompts_all[i]}") 
+                                           for i in range(n_show)],
+                        "negative_samples": [wandb.Image(_to_pil(neg_imgs[i]), caption=f"{pos_prompts_all[i]}") 
+                                           for i in range(n_show)]
+                    }, step=global_step)
             
-            # if is_main_process():
-            #     wandb.log({"reward_contrastive_loss": float(contrastive_loss.item())}, step=global_step)
-            #     # 可视化正/负样本（转 PIL）
-            #     def _tensor_to_pil(img_t):
-            #         # img_t: [C,H,W] in either [0,1] or [-1,1]
-            #         arr = img_t.detach().cpu().numpy()
-            #         if arr.min() < 0.0:
-            #             arr = (arr * 0.5 + 0.5)
-            #         arr = np.clip(arr, 0.0, 1.0)
-            #         arr = (arr * 255).astype(np.uint8).transpose(1,2,0)
-            #         return Image.fromarray(arr)
-            #     if epoch % 10 == 0:
-            #         pos_vis = [_tensor_to_pil(t) for t in (torch.cat(pos_imgs_B,0) if isinstance(pos_imgs_B, list) else pos_imgs_B)]
-            #         neg_vis = [_tensor_to_pil(t) for t in (torch.cat(neg_imgs_B,0) if isinstance(neg_imgs_B, list) else neg_imgs_B)]
-            #         wandb.log(
-            #             {
-            #                 "positive_images": [wandb.Image(p, caption=pos_prompts_B[i] if i < len(pos_prompts_B) else "") for i,p in enumerate(pos_vis)],
-            #                 "negative_images": [wandb.Image(n, caption=neg_prompts_B[i] if i < len(neg_prompts_B) else "") for i,n in enumerate(neg_vis)],
-            #             },
-            #             step=global_step
-            #         )
             reward_step += 1
 
         epoch += 1
